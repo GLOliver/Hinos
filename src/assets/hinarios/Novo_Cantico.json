@@ -1,0 +1,50 @@
+{
+    "nome":"Novo cantico",
+    "hinos": [
+        {
+            "titulo":"Doxologia",
+            "numero":"001",
+            "autor_letra":"Atenilde Cunha",
+            "autor_musica":"Lowell Mason/Ralph Eugene Manuel ",
+            "assunto":"Louvor e Adoração",
+            "letra":"Justo é o Senhor em seus santos caminhos,\nBenigno em todas as suas obras.\nPerto está o Senhor, perto está dos que o invocam,\nDe todos que o invocam\nEm verdade. Aleluia! Aleluia!"
+
+        },
+        {
+            "titulo":"Reverência",
+            "numero":"002",
+            "autor_letra":"",
+            "autor_musica":"Volmer Portugal/Jeferson Jersey",
+            "assunto":"Louvor e Adoração",
+            "letra":"O Senhor está no seu santo templo,\nO Senhor está no seu santo templo!\nCale-se diante dele toda a terra,\nCale-se diante dele toda a terra!"
+
+        },
+        {
+            "titulo":"A Igreja em Adoração",
+            "numero":"003",
+            "autor_letra":"Sarah Poulton Kalley",
+            "autor_musica":"Edouard Niemeyer",
+            "assunto":"Louvor e Adoração",
+            "letra":"Eterno Pai, teu povo congregado,\nHumilde entoa o teu louvor aqui!\nNo dia para o culto reservado,\nCom esperança olhamos para ti.\nTeu santo livro, ó grande Deus, tomamos\nCom fé singela e reverente amor;\nE, como atentos filhos, procuramos\nCiência na palavra do Senhor.\n\nJesus! Aos teus benditos pés sentados\nQueremos teu conselho receber,\nE sendo por ti mesmo doutrinados,\nDe mais em mais na santa fé crescer.\nDo mundo e seus encargos retirados\nQueremos descansar em ti, Senhor,\nMirando os ricos bens entesourados\nNa plenitude do teu vasto amor.\n\nEnsina aos teus, Espírito divino,\nDissipa as trevas destes corações;\nE com a luz do teu celeste ensino,\nVem aclarar as santas instruções.\nAviva em nós as forças da memória,\nPois sempre mais queremos conhecer\nO Rei dos céus, o Cristo cuja glória\nEnleva os santos anjos de prazer. Amém."
+
+        },
+        {
+            "titulo":"Culto à Trindade",
+            "numero":"004",
+            "autor_letra":"João Gomes da Rocha/Gerhard Tersteegen",
+            "autor_musica":"Joachim Neander/“Bundes-Lieder”",
+            "assunto":"Louvor e Adoração",
+            "letra":"Deus está no templo!\nPai Onipotente!\nA seus pés nos humilhamos.\nServos consagrados,\nReverentemente,\nAo Deus santo adoramos.\nPor favor, com amor,\nEspiritualmente\nDeus está no templo!\n\nCristo está no templo!\nSumo benefício\nPor seu sangue nos foi dado.\nEle, o bom Cordeiro,\nFoi o sacrifício\nQue expiou o vil pecado.\nEscolheu e sofreu\nO cabal suplício;\nCristo está no templo!\n\nTu, que estás no templo,\nPreceptor divino,\nE os corações habitas;\nTu, paciente Mestre,\nDá-nos teu ensino,\nAclarando as leis benditas.\nQue prazer conhecer\nA graça infinita!\nSim, está no templo!"
+
+        },
+        {
+            "titulo":"Trindade Adorada",
+            "numero":"005",
+            "autor_letra":"Doxologia latina/João Gomes da Rocha",
+            "autor_musica":"Charles Meineke",
+            "assunto":"Louvor e Adoração",
+            "letra":"Glória seja ao Pai,\nAo Filho e ao Santo Espírito,\nComo era no princípio,\nÉ hoje e para sempre,\nEternamente! Amém! Amém!"
+
+        }
+    ]
+}
