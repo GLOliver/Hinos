@@ -14,15 +14,15 @@ interface IndiceMusicaProps {
 }
 
 const IndiceMusica: React.FC<IndiceMusicaProps> = ({ listaHinos }) => {
-    const { navigate, setParams } = useNavigation();
+    const navigation = useNavigation();
 
     const hinos = listaHinos;
 
 
    function handleNavigationToMusica(hino: HinoBean) {
       console.log(hino);
-      setParams({hino: hino})
-      navigate('Musica', {hino: hino})
+      
+      navigation.navigate('Musica', { hino: hino });
   }
 
    return (
@@ -35,7 +35,6 @@ const IndiceMusica: React.FC<IndiceMusicaProps> = ({ listaHinos }) => {
                   </RectButton>
                }
                keyExtractor={(item, index) => index.toString()}
-
             />
       </View>
    );

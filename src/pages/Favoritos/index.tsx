@@ -11,13 +11,15 @@ import PageHeader from '../../components/PageHeader';
 function Favoritos() {
     const { goBack } = useNavigation();
 
+    const obj ={ title: 'Favoritos'}
+
     function handleNavigateBack() {
         goBack();
     }
 
     return (
         <>
-            <PageHeader title="Favoritos" />
+            <PageHeader obj= {obj} />
             <View style={styles.container}>
                 <ImageBackground
                     resizeMode="contain"
