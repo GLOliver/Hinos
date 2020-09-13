@@ -1,50 +1,615 @@
 {
-    "nome":"Novo cantico",
+    "nome": "Novo cantico",
     "hinos": [
         {
+            "titulo": "Doxologia",
+            "numero": "001",
+            "autor_letra": "Atenilde Cunha",
+            "autor_musica": "Lowell Mason/Ralph Eugene Manuel ",
+            "assunto": "Louvor e Adoração",
+            "letra": "Justo é o Senhor em seus santos caminhos,\nBenigno em todas as suas obras.\nPerto está o Senhor, perto está dos que o invocam,\nDe todos que o invocam\nEm verdade. Aleluia! Aleluia!"
+        },
+        {
+            "titulo": "Reverência",
+            "numero": "002",
+            "autor_letra": " - ",
+            "autor_musica": "Volmer Portugal/Jeferson Jersey",
+            "assunto": "Louvor e Adoração",
+            "letra": "O Senhor está no seu santo templo,\nO Senhor está no seu santo templo!\nCale-se diante dele toda a terra,\nCale-se diante dele toda a terra!"
+        },
+        {
+            "titulo": "A Igreja em Adoração",
+            "numero": "003",
+            "autor_letra": "Sarah Poulton Kalley",
+            "autor_musica": "Edouard Niemeyer",
+            "assunto": "Louvor e Adoração",
+            "letra": "Eterno Pai, teu povo congregado,\nHumilde entoa o teu louvor aqui!\nNo dia para o culto reservado,\nCom esperança olhamos para ti.\nTeu santo livro, ó grande Deus, tomamos\nCom fé singela e reverente amor;\nE, como atentos filhos, procuramos\nCiência na palavra do Senhor.\n\nJesus! Aos teus benditos pés sentados\nQueremos teu conselho receber,\nE sendo por ti mesmo doutrinados,\nDe mais em mais na santa fé crescer.\nDo mundo e seus encargos retirados\nQueremos descansar em ti, Senhor,\nMirando os ricos bens entesourados\nNa plenitude do teu vasto amor.\n\nEnsina aos teus, Espírito divino,\nDissipa as trevas destes corações;\nE com a luz do teu celeste ensino,\nVem aclarar as santas instruções.\nAviva em nós as forças da memória,\nPois sempre mais queremos conhecer\nO Rei dos céus, o Cristo cuja glória\nEnleva os santos anjos de prazer. Amém."
+        },
+        {
+            "titulo": "Culto à Trindade",
+            "numero": "004",
+            "autor_letra": "João Gomes da Rocha/Gerhard Tersteegen",
+            "autor_musica": "Joachim Neander/“Bundes-Lieder”",
+            "assunto": "Louvor e Adoração",
+            "letra": "Deus está no templo!\nPai Onipotente!\nA seus pés nos humilhamos.\nServos consagrados,\nReverentemente,\nAo Deus santo adoramos.\nPor favor, com amor,\nEspiritualmente\nDeus está no templo!\n\nCristo está no templo!\nSumo benefício\nPor seu sangue nos foi dado.\nEle, o bom Cordeiro,\nFoi o sacrifício\nQue expiou o vil pecado.\nEscolheu e sofreu\nO cabal suplício;\nCristo está no templo!\n\nTu, que estás no templo,\nPreceptor divino,\nE os corações habitas;\nTu, paciente Mestre,\nDá-nos teu ensino,\nAclarando as leis benditas.\nQue prazer conhecer\nA graça infinita!\nSim, está no templo!"
+        },
+        {
+            "titulo": "Trindade Adorada",
+            "numero": "005",
+            "autor_letra": "Doxologia latina/João Gomes da Rocha",
+            "autor_musica": "Charles Meineke",
+            "assunto": "Louvor e Adoração",
+            "letra": "Glória seja ao Pai,\nAo Filho e ao Santo Espírito,\nComo era no princípio,\nÉ hoje e para sempre,\nEternamente! Amém! Amém!"
+        },
+        {
+            "titulo": "Doxologia",
+            "numero": "006",
+            "autor_letra": "Thomas Ken/Guaraci Silveira",
+            "autor_musica": "",
+            "assunto": "Louvor e Adoração",
+            "letra": "A Deus, supremo Benfeitor,\nAnjos e homens dêem louvor;\nA Deus o Filho, a Deus o Pai,\nE a Deus Espírito, glória dai. Amém."
+        },
+        {
+            "titulo": "Glória à Trindade",
+            "numero": "007",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "A ti, meu Criador,\nDos altos céus Senhor,\nEu quero honrar.\nAceita a adoração\nQue a voz e o coração\nTe vêm, bondoso Pai,\n\nAqui prestar.\nA ti, Emanuel,\nPor teu amor fiel\nRendo eu louvor.\nDo céu trouxeste a luz,\nPor mim sofreste a cruz,\nBendito sejas, pois,\n\nMeu Redentor\nA ti, Consolador,\nDivino Preceptor,\nEu louvarei.\nCom teu poder sem par,\nOh, vem me iluminar,\nE assim, ao teu fulgor,\nEu brilharei. Amém"
+        },
+        {
+            "titulo": "Adoração à Trindade",
+            "numero": "008",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "Grande Deus, o teu louvor\nHoje, unidos, entoamos;\nTeu excelso e doce amor\nCom os anjos celebramos.\nE em adoração a ti,\nVimos bendizer-te aqui.\n\nCristo, Salvador veraz,\nCom poder em nós domina!\nTua graça e tua paz,\nÓ Senhor, ao mundo ensina.\nRedimido, em tua luz\nVem fazê-lo andar, Jesus!\n\nSanto Espírito eternal,\nOh, dirige as nossas mentes\nPara, em comunhão real,\nTe buscarmos reverentes;\nE o nosso coração\nSe encherá de gratidão.\n\nÓ Deus Trino, pois a ti\nSejam, sem cessar, rendidas\nPelos filhos teus aqui,\nHonra e glória sem medida.\nInfinito é o teu amor!\nCantem todos teu louvor! Amém."
+        },
+        {
+            "titulo": "Aleluia ao Deus Trino",
+            "numero": "009",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "A ti, ó Deus, altíssimo Senhor,\nEterno Pai, supremo Benfeitor,\nTeus filhos vêm, alegres, dar louvor.\nAleluia! Aleluia!\nA ti, Deus Filho, Salvador Jesus,\nDa graça a fonte, da verdade a luz;\nPor teu amor mostrado sobre a cruz,\nAleluia! Aleluia!\n\nA ti, ó Deus, Espírito de amor,\nDe nossas almas santificador.\nMestre divino, bom Consolador,\nAleluia! Aleluia!\n\nÓ Deus Triúno, vem nos conceder\nA plenitude do real poder,\nE as nossas almas vem, aqui, reger.\nAleluia! Aleluia! Amém."
+        },
+        {
+            "titulo": "A criação e seu Criador",
+            "numero": "010",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "Vós criaturas de Deus Pai,\nTodos erguei a voz, cantai!\nOh! Louvai-o! Aleluia!\nTu, sol dourado a refulgir,\nTu, lua em prata a reluzir,\nOh! Louvai-o! Oh! Louvai-o!\nAleluia! Aleluia! Aleluia!\n\nOh! Boa terra que nos dás\nInfindas bênçãos, canta já!\nOh! Louvai-o! Aleluia!\nFrutos e flores, juntos dai\nA glória a Deus, Senhor e Pai.\nOh! Louvai-o! Oh! Louvai-o!\nAleluia! Aleluia! Aleluia!\n\nVós, homens sábios e de bem,\nA todos proclamai também!\nOh! Louvai-o! Aleluia!\nLouvor ao Filho, glória ao Pai\nE ao Santo Espírito louvai!\nOh! Louvai-o! Oh! Louvai-o!\nAleluia! Aleluia! Aleluia!"
+        },
+        {
+            "titulo": "Trindade santíssima",
+            "numero": "011",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "Santo! Santo! Santo! Deus Onipotente!\nLouvam nossas vozes teu nome com fervor!\nSanto! Santo! Santo! Justo e compassivo!\nÉs Deus Triúno, Excelso Criador!\n\nSanto! Santo! Santo! Nós, os pecadores,\nNão podemos ver tua glória sem temor.\nTu somente és Santo! Só Tu és perfeito,\nDeus Soberano, imenso em teu amor.\n\nSanto! Santo! Santo! Todos os remidos,\nJuntos com os anjos, proclamam teu louvor!\nAntes de formar-se o firmamento e a terra\nEras, e sempre és, e hás de ser, Senhor!\n\nSanto! Santo! Santo! Deus Onipotente!\nTuas obras louvam teu nome com fervor.\nSanto! Santo! Santo! Justo e compassivo!\nDeus soberano, Excelso Criador! Amém."
+        },
+        {
+            "titulo": "Glória a Deus",
+            "numero": "012",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "Santo! Santo! Santo!\nDeus dos exercitos,\nA terra e os céus\nProclamam tua glória.\nGlória a ti, glória a ti, ó Deus,\nEternamente. Amém."
+        },
+        {
+            "titulo": "Contemplação",
+            "numero": "013",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra": "Se nos cega o sol ardente\nQuando visto em seu fulgor,\nQuem contemplará Aquele\nQue do sol é Criador?\nPatriarcas não puderam\nO seu rosto contemplar,\nNem Adão chegou a vê-lo\nAntes mesmo de pecar!\n\nLuz perante a qual é trevas\nMesmo o sol a fulgurar!\nNossos olhos pecadores\nNão te podem contemplar!\nFogo em cima da arca santa,\nSarça ardente do Sinai\nSão figuras desta glória\nDo Senhor e Eterno Pai.\n\nPara termos nós com ele\nFranca e doce comunhão,\nCristo, o Filho fez-se carne,\nFez-se nossa Redenção!\nPara que na glória eterna\nO vejamos já sem véu,\nCristo padeceu a morte,\nO caminho abrindo ao céu."
+        },
+        {
+            "titulo": "Louvor",
+            "numero": "014",
+            "autor_letra": "",
+            "autor_musica": "",
+            "assunto": "",
+            "letra":"Vamos nós louvar a Deus, Vamos, vamos!\nAo Senhor de toda luz, Santo, Santo!\nCantem, louvem lá nos céus\nNosso Deus e Rei Jesus!\nExaltado seja Deus, Santo, Santo!\n\n        Exaltado seja nosso Deus e Pai!\n        Exaltado! Para sempre o exaltai!\n        Cantem, louvem lá nos céus\n        Nosso Deus e Rei Jesus!\n        Exaltado seja Deus, Santo, Santo!\n\nNosso Deus, eterno Pai, Santo, santo,\nDeu-nos bênçãos por Jesus, Vede, vede!\nAo Senhor glorificai,\nVós, os salvos pela cruz,\nSim, conosco glória dai, Vinde, vinde!\n\nExaltemos nosso Deus, Santo, Santo!\nExaltemos com fervor, Hoje, hoje!\nTributemos todos nós\nHinos santos de louvor,\nSim, louvor em alta voz, Hoje, hoje!"   
+        },
+        {
             "titulo":"Doxologia",
-            "numero":"001",
-            "autor_letra":"Atenilde Cunha",
-            "autor_musica":"Lowell Mason/Ralph Eugene Manuel ",
-            "assunto":"Louvor e Adoração",
-            "letra":"Justo é o Senhor em seus santos caminhos,\nBenigno em todas as suas obras.\nPerto está o Senhor, perto está dos que o invocam,\nDe todos que o invocam\nEm verdade. Aleluia! Aleluia!"
-
-        },
-        {
-            "titulo":"Reverência",
-            "numero":"002",
+            "numero":"015",
             "autor_letra":"",
-            "autor_musica":"Volmer Portugal/Jeferson Jersey",
-            "assunto":"Louvor e Adoração",
-            "letra":"O Senhor está no seu santo templo,\nO Senhor está no seu santo templo!\nCale-se diante dele toda a terra,\nCale-se diante dele toda a terra!"
-
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Tua, ó Deus, é toda a grandeza,\n[Exceto Sop.] Tua, ó Deus, é toda a grandeza,\nTua, ó Deus, é toda a grandeza,\nE o poder e a glória,\nE a vitória, e os louvores;\nVitória e louvores.\n[Exceto Sop.] Tua, ó Deus\ntua, ó Deus,\n[Exceto Sop.] É a grandeza e o poder,\n[Mulheres] A grandeza e o poder,\n[Cont. e Ten.] E a glória\n[Exceto Ten.] e a vitória,\nE os louvores eternos!\n[Mulheres] Pois tudo o que está no mar,\nE está no céu e na terra é teu!\n[Exceto Sop.] Teu é o domínio,\nTeu é o domínio, ó Senhor!\nE Tu és acima\n[Exceto Ten.] de todos os reis,\nDe todos os reis.\nAmém. Amém. Aleluia!"
         },
         {
-            "titulo":"A Igreja em Adoração",
-            "numero":"003",
-            "autor_letra":"Sarah Poulton Kalley",
-            "autor_musica":"Edouard Niemeyer",
-            "assunto":"Louvor e Adoração",
-            "letra":"Eterno Pai, teu povo congregado,\nHumilde entoa o teu louvor aqui!\nNo dia para o culto reservado,\nCom esperança olhamos para ti.\nTeu santo livro, ó grande Deus, tomamos\nCom fé singela e reverente amor;\nE, como atentos filhos, procuramos\nCiência na palavra do Senhor.\n\nJesus! Aos teus benditos pés sentados\nQueremos teu conselho receber,\nE sendo por ti mesmo doutrinados,\nDe mais em mais na santa fé crescer.\nDo mundo e seus encargos retirados\nQueremos descansar em ti, Senhor,\nMirando os ricos bens entesourados\nNa plenitude do teu vasto amor.\n\nEnsina aos teus, Espírito divino,\nDissipa as trevas destes corações;\nE com a luz do teu celeste ensino,\nVem aclarar as santas instruções.\nAviva em nós as forças da memória,\nPois sempre mais queremos conhecer\nO Rei dos céus, o Cristo cuja glória\nEnleva os santos anjos de prazer. Amém."
-
+            "titulo":"Louvor a Deus",
+            "numero":"016",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Louvai a Deus,\nSoberano Senhor do que é feito.\nLouvai-o, sim,\nDe vossa alma, tesouro perfeito!\nA Deus cantai\nE, com fervor, tributai\nProfundo amor e respeito.\n\nLouvai a Deus\nQue vos faz prosperar dia a dia;\nE, com amor,\nVos defende e abençoa a porfia.\nLembrai, também,\nQue o poderoso vos vem\nFazer feliz companhia."
         },
         {
-            "titulo":"Culto à Trindade",
-            "numero":"004",
-            "autor_letra":"João Gomes da Rocha/Gerhard Tersteegen",
-            "autor_musica":"Joachim Neander/“Bundes-Lieder”",
-            "assunto":"Louvor e Adoração",
-            "letra":"Deus está no templo!\nPai Onipotente!\nA seus pés nos humilhamos.\nServos consagrados,\nReverentemente,\nAo Deus santo adoramos.\nPor favor, com amor,\nEspiritualmente\nDeus está no templo!\n\nCristo está no templo!\nSumo benefício\nPor seu sangue nos foi dado.\nEle, o bom Cordeiro,\nFoi o sacrifício\nQue expiou o vil pecado.\nEscolheu e sofreu\nO cabal suplício;\nCristo está no templo!\n\nTu, que estás no templo,\nPreceptor divino,\nE os corações habitas;\nTu, paciente Mestre,\nDá-nos teu ensino,\nAclarando as leis benditas.\nQue prazer conhecer\nA graça infinita!\nSim, está no templo!"
-
+            "titulo":"Deus seja louvado",
+            "numero":"017",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Seja louvado o Deus supremo,\nDeus revelado em Israel!\nOnipotente, prodígios obra,\nSempre clemente, sempre fiel.\n\n        Seja louvado o Deus supremo,\n        Deus revelado em Israel.\n\nLouvor perene só Deus merece!\nCantai, não cesse o seu louvor!\nDe todos seja sempre exaltado,\nE cante a Igreja com terno amor."
         },
         {
-            "titulo":"Trindade Adorada",
-            "numero":"005",
-            "autor_letra":"Doxologia latina/João Gomes da Rocha",
-            "autor_musica":"Charles Meineke",
-            "assunto":"Louvor e Adoração",
-            "letra":"Glória seja ao Pai,\nAo Filho e ao Santo Espírito,\nComo era no princípio,\nÉ hoje e para sempre,\nEternamente! Amém! Amém!"
-
+            "titulo":"Deus dos antigos",
+            "numero":"018",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Deus dos antigos, cuja forte mão\nRege e sustém os astros na amplidão!\nÓ Soberano, excelso Criador,\nCom gratidão cantamos teu louvor!\n\nDesde o passado foste nossa luz,\nSol que até hoje com fulgor reluz!\nSê nosso Esteio, Guia e Proteção,\nTua Palavra, lei e direção.\n\nDa guerra atroz, do crime e assolação,\nDos tempos maus de um mundo em confusão,\nSeja o teu braço o nosso defensor,\nPois confiamos sempre em ti, Senhor!\nTeu povo, ó Deus, assiste me seu labor,\nNo testemunho do teu grande amor.\nAs nossas vidas vem fortalecer\nPara o teu nome sempre engrandecer. Amém."
+        },
+        {
+            "titulo":"Rei Sublime",
+            "numero":"019",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ó Rei sublime em majestade e glória,\nSobre as milícias do celeste além,\nOuve o louvor, os hinos de vitória,\nDos que de ti recebem todo bem!\n\n        Vinde, ó remidos, filhos de Deus!\n        Cantai louvores que alcancem os céus!\n\nNos altos céus louvor a Deus ressoa,\nDe gratidão ao soberano amor!\nOs redimidos com fervor entoam\nO nome excelso de seu Benfeitor.\n\nEterno Deus, teus filhos vês prostrados\nPerante o brilho da superna luz,\nPois do pecado foram resgatados,\nE agora rendem glórias a Jesus!"
+        },
+        {
+            "titulo":"Glorificação à Trindade",
+            "numero":"020",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A ti, ó Deus louvamos,\nE por nosso Senhor te confessamos!\nA ti, ó Pai da Eternidade, adora toda a terra;\nA ti, o coro angélico,\nA ti, todo o poder do céu,\nA ti, querubins e serafins proclamam sem cessar:\n“Santo! Santo! Santo! Senhor Deus dos Exércitos!\nOs céus e a terra estão cheios\nDa majestade da sua glória!”\nA ti, o glorioso coro apostólico louva;\nA ti, a congregação dos profetas louva;\nA ti, o nobre exército dos mártires louva;\nA santa Igreja reconhece por toda a terra a ti:\nAo Deus Pai, infinito Dominador!\nE ao teu venerável, vero e único Filho,\nE ao Santo Espírito, Consolador.\n\nTu és Rei da glória, ó Jesus!\nTu és o sempiterno Filho de Deus!\nQuando vieste resgatar os homens,\nNão te escusaste a nascer do ventre da Virgem!\nQuando venceste a morte e seu aguilhão,\nLogo abriste a teus servos\nAs portas do reino dos céus.\nEstás sentado à destra de Deus\nNo trono onipotente.\nCremos que voltarás e aqui serás Juiz.\nPortanto, nós, remidos com teu sangue,\nSuplicamos teu auxílio!\nNós, que já estamos alistados com teus santos\nNa glória eterna.\n\nSenhor, guarda o povo e abençoa-nos.\nReina e guarda-nos para sempre.\nNoite e dia te adoramos\nE glorificamos teu nome sem-par.\nSenhor, concede que hoje\nNós vençamos o pecado!\nEterno e bondoso Pai, compadece-te de nós!\nConcede-nos a tua misericórdia,\nPois confiamos e esperamos em ti.\nSenhor! Em ti, em ti eu espero;\nNunca eu seja, nunca eu seja confundido.\nAmém."
+        },
+        {
+            "titulo":"Deus de Abraão",
+            "numero":"021",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ao Deus de Abraão louvai, do vasto céu Senhor,\nEterno e poderoso Pai e Deus de amor!\nAugusto Jeová que terra e céu criou,\nMinha alma o Nome exaltará do grande “Eu-Sou”.\n\nAo Deus de Abraão louvai! Eis por mandado seu,\nMinha alma deixa a terra e vai gozar no céu.\nO mundo desprezei, seu lucro e seu louvor,\nE Deus por meu quinhão tomei e protetor.\n\nMeu Guia Deus será! Seu infinito amor\nFeliz em tudo me fará por onde eu for.\nTomou-me pela mão, na trevas deu-me luz,\nE dá-me eterna salvação por meu Jesus.\n\nMeu Deus por si jurou, eu nele confiei!\nE para o céu que preparou eu subirei.\nSua face eu hei de ver, confiado em seu amor,\nE para sempre engrandecer meu Redentor."
+        },
+        {
+            "titulo":"Os céus proclamam",
+            "numero":"022",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Altamente os céus proclamam\nSeu divino Criador!\nAnunciam o firmamento\nTua obras ó Senhor!\nIncessantes, noite e dia,\nDão sinais do teu poder,\nSem palavras, proclamando\nDeus excelso no saber!\n\nMajestoso o sol caminha\nPelos céus, com resplendor!\nExultando, em seu percurso,\nEnche o mundo de calor.\nTodo o vasto universo\nCanta, em coro, teu louvor!\nE a nós vem doce ensino\nDa Palavra do Senhor.\n\nTua Lei, quão preciosa,\nBrilha mais que a clara luz;\nEsclarece as nossas mentes,\nGuia as almas a Jesus,\nEm tua graça meditando,\nCantarei, ó bom Senhor,\nE será na minha boca\nAgradável o teu louvor. Amém."
+        },
+        {
+            "titulo":"Adoração ao Criador",
+            "numero":"023",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Oh! Vinde adorar ao Deus Criador,\nDa terra e dos céus, eterno Senhor.\nAo Deus que, habitando no meio da luz,\nA nós se revela por Cristo Jesus.\n\nSeu grande poder deveis contemplar\nNo céu estrelado, no amplo mar.\nA gota de orvalho, a mínima flor,\nProclamam, constantes, ser Deus seu Autor.\n\nOh! Vinde adorar ao Deus Salvador,\nQue, em Cristo Jesus, nos mostra favor.\nAo Deus que, benigno, com graça e perdão,\nPecados cobrindo nos dá redenção."
+        },
+        {
+            "titulo":"Convite ao Louvor",
+            "numero":"024",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Vinde, irmãos, louvar a Deus,\nCriador da terra e céus.\n\n        Exaltemos o Senhor!\n        Infinito é seu amor!\n\nGlória e honra ao grande Rei;\nAlta e santa é sua lei.\n\nAge com poder real,\nCom grandeza divinal.\n\nDia e noite a sua mão\nDesenvolve o tenro grão.\n\nCom os dons do seu poder\nNossas vidas faz crescer."
+        },
+        {
+            "titulo":"O Criador de Tudo",
+            "numero":"025",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Deus, do infinito o Criador,\nQue deste aos astros seu fulgor,\nTuas obras te proclamam!\nAo explorarmos a amplidão,\nObra sem-par da tua mão,\nExtasiados te louvamos!\nAleluia! Aleluia! Aleluia!\n\nErgue-se o homem para o céu,\nDeixa o planeta em que nasceu;\nOh! Conquista sem limites!\nComo havemos de entender\nQue Deus quisesse aqui viver?\nDeus eterno, entre os homens!\nAleluia! Aleluia! Aleluia!\n\nHoje há problemas entre nós\nPor não ouvirmos tua voz.\nPai, perdoa as nossas faltas!\nQue nossa vida em Jesus\nBusque guarida, paz e luz,\nE teu nome celebremos:\nAleluia! Aleluia! Aleluia!\n\nNo grande plano divinal,\nDessa harmonia universal,\nDeus com grande amor salvou-nos!\nEle nos deixa conhecer\nToda extensão de seu poder\nRevelado no universo!\nAleluia! Aleluia! Aleluia!"
+        },
+        {
+            "titulo":"Ao Deus grandioso",
+            "numero":"026",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Senhor meu Deus, quando eu maravilhado,\nOs grandes feitos vejo da tua mão,\nEstrelas, mundos e trovões rolando,\nA proclamar teu nome na amplidão;\n\n        Canta minh'alma, então, a ti, Senhor:\n        Grandioso és tu, grandioso és tu!\n        Canta minh'alma, então, a ti Senhor:\n        Grandioso és tu, grandioso és tu!\n\nQuando atravesso bosques e florestas\nOuvindo, à brisa, pássaros cantar,\nOu vejo, além, montanhas altaneiras\nO teu poder e glória proclamar;\n\nQuando percebo que na cruz maldita,\nPor teu amor, Jesus morreu por mim,\nE me livrou do jugo do pecado,\nAli vertendo sangue carmesim;\n\nQuando, afinal, em resplendor e glória,\nJesus abrir as portas da mansão,\nEu hei de estar de joelhos entre os santos,\nNa mais humilde e vera adoração;\n\n        E então cantar eternamente ali:\n        Grandioso és tu, grandioso és tu!\n        E então cantar eternamente ali:\n        Grandioso és tu, grandioso és tu!"
+        },
+        {
+            "titulo":"Um hino ao Senhor",
+            "numero":"027",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"As grutas, as rochas imensas,\nDos mundos o grande esplendor,\nProclamam bem alto, constantes\nUm hino ao teu Nome, Senhor!\n\n        Nos céus e no mar e na terra,\n        Nos bosques, nos prados em flor,\n        No fragoso alcantil, na amplitude celeste,\n        Um hino ressoa ao Senhor!\n\nNos céus, as estrelas brilhantes,\nDos mares o grande fragor,\nE as brisas entoam, ridentes,\nUm hino ao teu Nome, Senhor!\n\nAs aves alegres, na mata,\nPor entre as ramagens em flor,\nExultam em coro, cantando\nUm hino ao teu Nome, Senhor!\n\nE tu, pecador que vagueias,\nQue fazes ao teu Criador?\nNão achas momento em que cantes\nUm hino de glória ao Senhor!"
+        },
+        {
+            "titulo":"Coroação",
+            "numero":"028",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Tuas obras te coroam\nComo um halo de esplendor;\nAstros, anjos, céus entoam\nHino eterno a ti, Senhor!\nCampos, matas, vales, montes\nVerde outeiro e verde mar,\nAves e sonoras fontes\nFormam coro singular!\n\nNós, mortais, por ti remidos,\nDeus de glória, Deus de amor,\nCorações aos céus erguidos,\nCelebramos teu louvor!\nRevelaste amor profundo,\nInsondável, sem igual,\nEnviando Cristo ao mundo\nA vencer por nós o mal!\n\nFonte és de alegria e vida,\nÉs do bem o Inspirador;\nTua graça nos convida\nA viver em mútuo amor.\nQuais alegres peregrinos,\nSempre em marcha triunfal,\nCantaremos gratos hinos\nNa jornada, até o final!"
+        },
+        {
+            "titulo":"Louvor",
+            "numero":"029",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ó minha alma, a Deus bendize\nEm humilde adoração,\nNada há mais que te escravize\nNo pecado e escuridão!\nOh, louvai-o! Oh, louvai-o!\nEle é o Rei da criação!\n\nPelo seu favor e graça\nQue outorgou a nossos pais,\nE por tudo que ele faça,\nBendizei-o mais e mais!\nOh, louvai-o! Oh, louvai-o!\nComo nossos ancestrais.\n\nSe estivermos em perigo,\nNosso Deus nos guardará;\nEle as trevas e o inimigo\nPara sempre abaterá!\nOh, louvai-o! Oh, louvai-o!\nPelas bênçãos que nos dá!\n\nAnjos e homens, reverentes,\nAdorai-o com fervor;\nLua, estrela, sol luzente,\nQue ao espaço dais fulgor,\nOh, louvai-o! Oh louvai-o!\nPois é Deus de excelso amor!"
+        },
+        {
+            "titulo":"Providência de Deus (na criação)",
+            "numero":"030",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ó Deus, ó Providência! Com teu real poder\nTrouxeste à existência o mundo, todo ser!\nE a tudo que criaste, com benfazeja mão,\nAs bênçãos não negaste da tua proteção.\n\n        Eterno Deus, ó Deus sem par,\n        A criação, com gratidão\n        Te vem louvar!\n        Nos céus teu nome aclamam\n        Os astros, que são teus;\n        A terra e o mar proclamam:\n        “És o nosso Deus!”\n\nAo sol resplandecente e à vastidão do mar\nTraçaste, ó Deus potente, as leis que irão guardar.\nE a tenra e pequenina florzinha em botão,\nA tua mão divina conserva em proteção.\n\nDos campos, a verdura, dos frutos, o sabor,\nCelebram a ternura do teu constante amor!\nE a natureza inteira, por toda a Criação,\nProclama, alvissareira, a tua proteção. Amém."
+        },
+        {
+            "titulo":"Providência de Deus (na redenção)",
+            "numero":"031",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ó Deus, ó Providência! Sem ti não há viver!\nVem dar-nos a assistência do teu real poder!\nTão só em ti confiamos e em tua proteção,\nPois só em ti achamos conforto e redenção.\n\nÉs nosso Pai, ó Deus de amor!\nTeus filhos vêm aqui, também,\nCantar louvor!\nAo mundo renunciamos,\nAgora somos teus;\nE alegres proclamamos:\n“És o nosso Deus!”\n\nAo homem Tu criaste, de ti vivo exemplar;\nNa terra o colocaste a fim de te louvar.\nCaído embora esteja, estendes tua mão,\nNa graça benfazeja de tua Redenção.\n\nEm Cristo, o Filho amado, a tua graça vem\nCobrir-nos o pecado e dar-nos todo o bem,\nReais munificências gozamos nós, então,\nNas terna providências de tua Redenção. Amém."
+        },
+        {
+            "titulo":"O Deus Fiel",
+            "numero":"032",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Tu és fiel, Senhor, ó Pai celeste,\nTeus filhos sabem que não falharás!\nNunca mudaste, tu nunca faltaste,\nTal como eras tu sempre serás.\n\n        Tu és fiel, Senhor! Tu és fiel, Senhor!\n        Dia após dia, com bênçãos sem fim,\n        Tua mercê nos sustenta e nos guarda;\n        Tu és fiel, Senhor, fiel assim.\n\nFlores e frutos, montanhas e mares,\nSol, lua, estrelas brilhando no céu,\nTudo criaste na terra e nos ares,\nPara louvar-te, Senhor, que és fiel.\n\nPleno perdão tu dás! Que segurança!\nCada momento me guias, Senhor,\nE no porvir, oh! que doce esperança!\nDesfrutarei do teu rico favor. Amém"
+        },
+        {
+            "titulo":"Maravilhas divinas",
+            "numero":"033",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ao Deus de amor e de imensa bondade,\nCom voz de júbilo, vinde e aclamai!\nCom coração transbordante de graças,\nSeu grande amor, todos, vinde e louvai.\n\n        No céu, na terra, que maravilhas\n        Vai operando o poder do Senhor!\n        Mas seu amor, aos homens perdidos,\n        Das maravilhas é sempre a maior.\n\nJá nossos pais nos contaram a história\nDe Deus, falando com muito prazer,\nQue nas tristezas, nos grandes perigos,\nEle os salvou por seu grande poder.\n\nHoje também, nós bem alto, cantamos\nQue as orações ele nos atendeu;\nSeu forte braço, que é tão compassivo\nEm nosso auxílio ele sempre estendeu.\n\nComo até hoje e daqui para frente,\nEle será nosso eterno poder,\nNosso castelo bem forte e seguro,\nE nossa fonte de excelso prazer."
+        },
+        {
+            "titulo":"Convite ao louvor",
+            "numero":"034",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Demos com alegre som\nGlória a Deus, porque ele é bom.\n\n        Sua graça Deus nos dá\n        E jamais nos deixará\n\nCom poder ele ordenou\nE no mundo a luz raiou.\n\nCom olhar de compaixão\nViu a nossa perdição.\n\nO seu povo abençoou,\nNo deserto ele o guiou.\n\nDemos com alegre som\nGlória a Deus, porque ele é bom."
+        },
+        {
+            "titulo":"Adoração e súplica",
+            "numero":"035",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Teu culto agora, aqui, Senhor,\nNós vimos celebrar,\nCantando, juntos, teu louvor,\nTeu livro a meditar.\n\nÀ nossa vera adoração\nPresente estás, Senhor.\nFazendo o nosso coração\nSentir teu grande amor.\n\nAtende nossas petições,\nÓ poderoso Deus!\nConcede aos nossos corações\nAntegozar os céus. Amém."
+        },
+        {
+            "titulo":"Exaltação",
+            "numero":"036",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"De toda a terra e das nações,\nLouvor a Cristo entoai!\nEm alta voz, dos corações,\nO Nome de Jesus cantai.\n\n        O dom supremo, divinal,\n        Justiça eterna e santo amor,\n        De litoral em litoral\n        Serão cantados ao Senhor\n\nEm toda língua bendizei\nA Deus, Autor da Criação!\nEm toda terra engrandecei\nJesus que trouxe a Redenção!"
+        },
+        {
+            "titulo":"O Santo Nome",
+            "numero":"037",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Jesus, teu nome é santo,\nAmável teu querer.\nLouvor supremo e puro amor\nQueremos te render!\nPoder e honra e glória a ti\nNós vimos tributar,\nE com sincera devoção,\nTeu culto celebrar!\nJesus, teu nome é santo,\nMerece o nosso amor!\nÉs nosso Deus, que estás nos céus,\nE nosso protetor.\nIncomparável és, Senhor,\nEm tua compaixão;\nQuiseste, para o mal vencer,\nFazer-te nosso irmão!\nJesus, teu nome é santo,\nVenceste sobre a cruz!\nO teu sofrer, o teu penar,\nÀ vida nos conduz.\nGlorificado estás nos céus,\nAtento à adoração\nQue vimos nós, fiéis, prestar\nCom grato coração! Amém."
+        },
+        {
+            "titulo":"Louvores sem fim",
+            "numero":"038",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Mil vezes mil louvores rendamos a Jesus,\nQue da mais alta glória desceu até à cruz!\nPor sua imensa graça, por seu insigne amor,\nPor todos seja sempre louvado o Salvador.\n        Mil vezes, sim, mil vezes, sim,\n        Louvores ao Senhor\n        Que nos amou e nos salvou,\n        Bendito Salvador!\nEis ao redor do trono do Redentor Jesus,\nMilhares de milhares em refulgente luz!\nCom reverência adoram o grande Salvador,\nE ao bom Cordeiro rendem a honra e o louvor.\nOh! Vinde agora, todos, também a celebrar\nAs glórias sempiternas do Redentor sem par!\nCom vozes de vitória seu Nome proclamai!\nMil vezes mil louvores a Cristo tributai!"
+        },
+        {
+            "titulo":"Exaltação e Louvor",
+            "numero":"039",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Oh! Vinde crentes dar louvor ao grande Rei Jesus\nQue, para a nossa Redenção, morreu na amarga cruz;\nSeu sangue derramou, de tudo me lavou,\nMais alvo do que a neve me tornou.\n        O sangue de Jesus me lavou, me lavou;\n        O sangue de Jesus me lavou, me lavou!\n        Alegre, cantarei louvores ao meu Rei,\n        Ao meu Senhor Jesus que me salvou!\nOh! Vinde unir-vos a Jesus na luta contra o mal\nE, com o grande Salvador em marcha triunfal,\nA todos proclamar que seu amor sem-par\nO fez na cruz seu sangue derramar.\nO chefe da milícia é Jesus, meu Salvador,\nO Rei dos reis, o Redentor, o eterno e bom Senhor,\nA tudo vencerá, vitória nos dará\nE à glória eterna os seus conduzirá."
+        },
+        {
+            "titulo":"Cântico ao Salvador",
+            "numero":"040",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Cantai a Cristo, o Salvador,\nQue tanto nos amou\nE, para nossa Redenção,\nSeu sangue derramou!\n\n        Salvação! Salvação!\n        Alcançou-nos o Filho de Deus;\n        Salvação! Salvação!\n        Aleluia ao Filho de Deus!\n\nCantai o amor celestial,\nAmor do grande Deus,\nDivina flama a consumir\nOs vis pecados meus!\n\nDe Cristo, o excelso, infindo amor,\nOh! Vinde, publicai!\nE dele a grande salvação\nA todos proclamai!"
+        },
+        {
+            "titulo":"Louvor pela Graça Divina",
+            "numero":"041",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Louvai, louvai Cristo, o bom Mestre divino!\nPor nós na cruz ele sofreu, morreu;\nPerdão, perdão hoje aos contritos outorga,\nPois precioso sangue na cruz verteu.\nSim, louvai-o! Ei-lo tão exaltado,\nMediador que nunca nos faltará.\n\n        Louvai, louvai e proclamai a grandeza\n        Do perdão, da graça que a todos dá.\n\nLouvai, louvai Cristo, o bom Mestre divino!\nConselhos bons dá ele ao pecador;\nAnunciai as bênçãos maravilhosas\nConcedidas por nosso Salvador.\nIde todos, servos de Jesus Cristo,\nE ele nunca vos abandonará.\n\nLouvai, louvai Cristo, o bom Mestre divino!\nCantai, cantai, seu grande amor cantai;\nFiéis, cantai de coração, bem unidos,\nSeu poder e glória louvai, louvai!\nQual pastor que cuida do seu rebanho,\nCristo, assim, os crentes protegerá."
+        },
+        {
+            "titulo":"O grande amor de Deus",
+            "numero":"042",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A Deus demos glória por seu grande amor,\nO Filho bendito por nós todos deu\nE graça concede ao mais vil pecador,\nAbrindo-lhe a porta de entrada no céu.\n\n        Exultai! Exultai! Vinde todos louvar\n        A Jesus, Salvador, a Jesus, Redentor!\n        A Deus demos glória, porquanto do céu\n        Seu Filho bendito por nós todos deu!\n\nOh! Graça real! Foi assim que Jesus,\nMorrendo, seu sangue por nós derramou.\nHerança nos céus, com os santos em luz,\nLegou-nos aquele que o preço pagou.\n\nTal prova de amor nos persuade a confiar\nNos merecimentos do Filho de Deus!\nE quem, a Jesus, pela fé se entregar,\nVai vê-lo na glória eterna dos céus."
+        },
+        {
+            "titulo":"O Deus de Amor",
+            "numero":"043",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Desperta já, meu coração\nE louva ao Salvador,\nCantando em hinos triunfais\nQue Deus é o Deus de amor.\nImenso amor! Amor sem-par!\nPreenche os vastos céus,\nAlcança a terra e a todos nós,\nInsigne amor de Deus!\n\n        Desperta já, meu coração,\n        E louva ao grande Salvador;\n        Cantando em hinos triunfais\n        Que Deus é o Deus de amor.\n\nAmor que um dia se encarnou\nA fim de me salvar,\nE que, subindo à dura cruz,\nMorreu em meu lugar!\nAmor que exclama: “Vinde a mim!”,\nQue busca o pecador.\nAmor eterno, sem igual,\nDe Cristo, Salvador.\n\nRemido a preço tão real,\nO sangue do Senhor,\nCom que pagar eu poderei\nTal graça, tal amor?\nQuando ele a mim, um pecador,\nSe digna de aceitar\nE me levar com seus fiéis\nAo santo e eterno lar?"
+        },
+        {
+            "titulo":"Louvores ao Senhor",
+            "numero":"044",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Louvemos ao Senhor, ao Pai da eternidade,\nQue mostra tanto amor à pobre humanidade!\nSeu Filho aqui sofreu por nossa redenção\nE com o Pai nos deu bendita comunhão!"
+        },
+        {
+            "titulo":"Grande Redenção",
+            "numero":"045",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Milhares de milhares ouço\nCantando a Deus com gratidão,\nA Cristo, o Salvador, louvando\nPor sua grande Redenção.\n“A Deus louvai!” — em coro clamam;\n“A Deus louvai — pois nos amou!\nE, pelo sangue do Cordeiro,\nDe toda mancha nos lavou!”\n\nO mesmo salmo triunfante,\nEm tons de santa exultação,\nPor todo o mundo vai subindo\nA Deus, autor da Redenção.\n“A Deus louvai” — nos vales soa\nE os montes fazem ecoar:\n“A Deus louvai, o Deus da Graça,\nQue aos pecadores quer salvar!”\n\nE nós, teus santos pés cercando,\nEnquanto militando aqui\nAs nossas vozes elevamos\nPara exaltar, Senhor, a ti.\n“A Deus louvai” - também clamamos!\n“A Deus louvai, supremo Rei!\nE glória, honra, majestade\nA Cristo, o Salvador, rendei!”\n\nDas trevas fomos nós chamados\nÀ tua pura e santa luz!\nDa escravidão e do pecado\nNos libertaste pela cruz.\n“A Deus louvai!” - cantemos todos!\n“A Deus louvai, que nos remiu,\nE filhos seus e seus herdeiros,\nEm Cristo, nos constituiu!”"
+        },
+        {
+            "titulo":"Altos Louvores",
+            "numero":"046",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Altos louvores a quem triunfou!\nJesus, padecendo, seu povo salvou.\nMorto na cruz pelos crimes do mundo,\nDotou aos iníquos de vida e perdão.\nQuão grande esta graça! Favor tão profundo!\nAmor indizível! Real compaixão!\nAltos louvores a quem triunfou!\nJesus, padecendo, seu povo salvou.\n\nGlória rendemos ao bom Salvador,\nExcelso em justiça, supremo em amor!\nCristo quebrou as cadeias do forte,\nSeu cetro arrancando com régio poder.\nAgora, onde estão teus terrores, ó morte?\nSepulcro! Teus presos irão reviver!\nGlória rendamos ao bom Salvador,\nExcelso em justiça, supremo em amor!\n\nGraças te damos, divino Senhor,\nAmparo constante, fiel protetor!\nNunca nos deixas, Pastor incansável!\nTeu braço não falha nem perde o poder.\nConosco presente em bondade imutável,\nTeu povo diriges com alto saber,\nGraças te damos, divino Senhor,\nAmparo constante, fiel protetor.\n\nVem, ó Jesus, majestoso reinar;\nTeu povo te espera, não queiras tardar!\nVem em poder, apressando esse dia,\nPois tua vontade será feita aqui.\nOh! Volta na glória trazendo alegria!\nA Igreja suspira, ansiosa por ti!\nVem, ó Jesus, majestoso reinar;\nTeu povo te espera, não queiras tardar!"
+        },
+        {
+            "titulo":"Louvor e glória",
+            "numero":"047",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Louvamos-te, ó Deus, pelo dom de Jesus\nQue, por nós, pecadores, morreu sobre a cruz\n\n        Aleluia! Toda a glória te rendemos, Senhor!\n        Aleluia! Tua graça imploramos. Amém.\n\nLouvamos-te, ó Deus, pois nos mandas a luz\nQue, brilhando nas trevas, a Cristo conduz.\n\nLouvamos-te, ó Deus, por teu Filho, Jesus,\nQue foi morto, mas vive no Reino da luz.\n\nLouvamos-te, ó Deus, e rogamos, Senhor:\nDá-nos sempre sentir teu poder, teu amor."
+        },
+        {
+            "titulo":"Amor e gratidão",
+            "numero":"048",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Jesus, quão infinito é teu divino amor!\nAlém do nosso alcance, profundo é seu valor!\nOs céus por nós deixaste, vieste, aqui, morrer,\nA fim de que possamos contigo, além, viver.\n\nPor isso, alegremente, buscamos sempre a ti,\nVisando obedecer-te na vida breve aqui.\nEmbora desprezados, com aflições e dor,\nÉ suave e bom servir-te, bendito Salvador! Amém."
+        },
+        {
+            "titulo":"Sempre vencendo",
+            "numero":"049",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Sempre vencendo, mui vitorioso,\nCristo Jesus, o Senhor!\nÉ Soberano, Chefe bendito,\nEm tudo ele é vencedor!\nEi-lo supremo, guiando,\nCom seu imenso poder!\nTodos avante, pois, crentes,\nTodos lutar e vencer.\n\n        Não é dos fortes a vitória,\n        Nem dos que correm melhor.\n        Mas dos fiéis e sinceros\n        Que seguem junto ao Senhor\n\nSempre vencendo, mui vitorioso,\nCristo Jesus, o Senhor!\nEis suas hostes inumeráveis,\nSeu grande império e fulgor;\nEm seu governo demonstra\nCuidado e amor sem igual;\nSempre nos ama e protege\nCom seu poder eternal\n\nSempre vencendo, mui vitorioso,\nCristo Jesus, o Senhor!\nReis e vassalos, servos e chefes\nQuerem também seu favor.\nSenhor, desejo e te imploro\nQue me permitas lutar\nSempre ao teu lado, invencível,\nAté meus dias findar!"
+        },
+        {
+            "titulo":"Sangue Precioso",
+            "numero":"050",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Cantarei a Cristo e seu excelso amor;\nPor nós baixou à terra o grande Salvador\n\n        O sangue precioso\n        De Cristo tem valor\n        Das penas da justiça\n        Liberta o pecador.\n\nCantarei a Cristo! Por nós morreu na cruz.\nAos pobres pecadores quem salva é só Jesus!\n\nCantarei a Cristo! Por nós cumpriu a lei!\nSeu manto de justiça, alegre, vestirei.\n\nCantarei a Cristo! Nas nuvens voltará,\nE na celeste glória os seus receberá."
+        },
+        {
+            "titulo":"Cristo Adorado",
+            "numero":"051",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A Cristo coroai, Cordeiro vencedor!\nOuvi das hostes celestiais, dos anjos o louvor!\nEleva a tua voz e entoa, coração\nLouvando Àquele que morreu e deu-te a salvação.\n\nA Cristo coroai, seu lado e mãos olhai!\nDas suas chagas o esplendor e a glória contemplai!\nNem anjos lá do céu o podem suportar;\nPerante o místico esplendor abaixam seu olhar\n\nA Cristo coroai! A vida nos doou,\nE a fim de dar-nos salvação da tumba triunfou!\nCantemos seu poder: morreu, mas ressurgiu!\nA vida eterna ali nos deu e a morte destruiu.\n\nA Cristo coroai, das eras o Senhor,\nDos mundos e astros da amplidão eterno Criador.\nAo grande Redentor, que nos deu salvação,\nEternamente tributai louvor e adoração."
+        },
+        {
+            "titulo":"Glória e coroação",
+            "numero":"052",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Saudai o nome de Jesus!\nArcanjos, adorai!\nAo Rei que se humilhou na cruz,\nCom glória, glória, glória, glória,\nCom glória coroai!\n\nÓ escolhida geração\nDe Deus, o eterno Pai,\nAo grande autor da salvação\nCom glória, glória, glória, glória,\nCom glória coroai!\n\nRemidos todos, com fervor,\nLouvores entoai!\nAo que da morte é vencedor,\nCom glória, glória, glória, glória,\nCom glória coroai!\n\nÓ raças, povos e nações\nAo Rei divino honrai!\nA quem quebrou os vis grilhões,\nCom glória, glória, glória, glória,\nCom glória coroai!"
+        },
+        {
+            "titulo":"Honra, poder, majestade",
+            "numero":"053",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Honra, poder, majestade, riqueza,\nSabedoria, domínio e grandeza,\nAo vencedor da batalha é cantado,\nAo ser no trono do céu, coroado.\n\nSoa nos céus o triunfo, a vitória;\nVibra na terra do seu Nome a glória;\nMontes, oceanos, florestas e flores,\nDo seu domínio ecoam louvores.\n\nSobe em canto constante alegria;\nBênçãos do alto nos vêm cada dia;\nHonra, poder, majestade entoamos\nEm nossos hinos que a Deus elevamos.\n\nDai ao Cordeiro o louvor que é devido;\nNo trono reina de glória vestido.\nFoi imolado - aparente fraqueza!\nMas triunfante, já vive em grandeza."
+        },
+        {
+            "titulo":"A chegada do Messias",
+            "numero":"054",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Cantai! Exultai! O Messias chegou!\nDissiparam-se as trevas, a aurora raiou!\n\nDai louvores, celebrai-o!\nFoi morto na cruz!\nDai louvores, publicai-o;\nJá vive Jesus!\n\nCantai! Exultai! Pelos ímpios sofreu!\nSatisfez a justiça e o sangue verteu!\n\nCantai! Exultai! Temos pleno perdão,\nPois Jesus nos concede real salvação!\n\nCantai! Exultai! Jesus Cristo, nos céus,\nPelos seus intercede à destra de Deus\n\nCantai! Exultai! O Senhor voltará!\nTriunfante, glorioso, nas nuvens virá!"
+        },
+        {
+            "titulo":"Alegria e Gratidão",
+            "numero":"055",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Cantai alegremente, cantai a Deus louvor;\nTrazei a ele um canto de exultação e amor\nÉ Deus quem faz a terra seus frutos produzir,\nE as estações do ano em ordem prosseguir.\n\nÉ Deus que envia as chuvas e os montes faz florir;\nQue o vale exuberante de trigo faz cobrir.\nDeus tudo multiplica em sua compaixão,\nFartura concedendo com dadivosa mão.\n\nTrazei aos seus altares dos frutos que ele deu,\nE as almas da colheita por quem, Jesus morreu.\nProstrai-vos diante dele, humildes, com louvor,\nE assim, em vossas vidas, dai graças ao Senhor!"
+        },
+        {
+            "titulo":"Ações de Graças e Súplica",
+            "numero":"056",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Graças te rendemos, Deus de luz e amor,\nPelo dom de Cristo, nosso Salvador;\nPelo que nos deste com bondosa mão,\nPelos dons da vida: veste, abrigo e pão.\n\nPelos bons amigos que, Senhor, te apraz\nCongregar conosco, nesta doce paz.\nDá-nos sempre a graça de contigo estar,\nDá-nos sempre o gozo de teu Nome honrar! Amém."
+        },
+        {
+            "titulo":"Fonte de todo o bem",
+            "numero":"057",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A terra semeamos a fim de nos dar pão,\nMas Deus é quem a nutre com benfazeja mão.\nÉ Deus quem manda o frio, o inverno e o verão,\nA chuva, o doce orvalho e a fresca viração.\n\n        De todo bem a fonte\n        É o nosso bom Senhor!\n        Louvai a Deus, louvai a Deus\n        Por todo o seu amor!\n\nO Criador de tudo, que em toda parte está\nColore a flor silvestre e à estrela brilho dá.\nOs ventos lhe obedecem e o bravo mar também;\nAs frágeis avezinhas o seu cuidado têm!\n\nA nós, porém, seus filhos, revela mais amor,\nMandando a este mundo o Filho Salvador!\nA nós fazendo herdeiros de tudo quanto tem,\nNa redenção perfeita que dele nos provém!"
+        },
+        {
+            "titulo":"Ofertas",
+            "numero":"058",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A minha vida, com meus bens,\nProvém de ti, Senhor.\nSaúde, veste, abrigo e pão\nSão dons do teu amor!\n\nOh! Não permitas, Pai de amor\nQue aquilo que me dás\nEu ouse, incauto, desviar\nEm causas vãs ou más!\n\nNão deixes que meu coração\nSe engolfe no prazer,\nE no fruir de muitos dons\nEu venha te esquecer!\n\nMordomo teu, eu quero dar\nÀ Igreja, em proporção\nA quantas bênçãos recebi\nDe tuas próprias mãos!\n\nAceita a minha oferta, ó Deus,\nE bênçãos dá-me a flux.\nSim, dá-me sempre o que ofertar\nÀ causa de Jesus! Amém."
+        },
+        {
+            "titulo":"Gratidão",
+            "numero":"059",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Ao Deus eterno, Criador,\nMil graças tributemos,\nPor tantos anos de labor\nNo pátrio lar que temos.\n\n        Ao Deus eterno, Criador,\n        Ao Deus da Redenção,\n        Por tantos anos de labor,\n        A nossa gratidão!\n\nProvaste,ó Deus, o teu amor\nA nós, os brasileiros,\nNa voz tão plena de fervor\nDos grandes pioneiros.\n\nPor toda parte ó Redentor,\nAgora é anunciado\nTeu nome ao pobre pecador\nQue jaz no vil pecado.\n\nQue grandes coisas, ó Senhor,\nA todos nós legaste!\nSão provas desse grande amor\nCom que Tu nos amaste. Amém."
+        },
+        {
+            "titulo":"Ofertório",
+            "numero":"060",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Em tudo as tuas mãos, Senhor,\nNos têm enriquecido,\nE às provisões do teu amor,\nBondosas, conduzido.\n\nDe ti procede a salvação\nE as bênçãos incontáveis\nQue, dia a dia, ó Pai, nos dão\nAs tuas mãos amáveis.\n\nDe ti vivemos nós, Senhor,\nE em ti nos alegramos;\nNa comunhão do puro amor\nQue em Cristo desfrutamos.\n\nCom mui sincero coração\nOferta aqui trazemos;\nRecebe como gratidão\nDe quanto a ti devemos. Amém"
+        },
+        {
+            "titulo":"Ações de Graças",
+            "numero":"061",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Graças dou por esta vida,\nPelo bem que revelou\nGraças dou pelo futuro\nE por tudo que passou.\nPelas bênçãos derramadas,\nPelo amor pela aflição,\nPelas graças reveladas,\nGraças dou pelo perdão.\n\nGraças pelo azul celeste\nE por nuvens que há também,\nPelas rosas do caminho\nE os espinhos que elas têm.\nPelas noites desta vida,\nPela estrela que brilhou,\nPela prece respondida\nE a esperança que falhou.\n\nPela cruz e o sofrimento,\nE, afinal, ressurreição,\nPelo amor, que é sem medida,\nPela paz no coração;\nPela lágrima vertida\nE o consolo que é sem par,\nPelo dom da eterna vida,\nSempre graças hei de dar."
+        },
+        {
+            "titulo":"Hino de gratidão",
+            "numero":"062",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Graças te dou por tudo que me deste,\nPrimeiro a Salvação em meu Jesus.\nGraças te dou por tudo que fizeste\nPor este pecador salvo na cruz!\n\n        Graças, graças, mil graças\n        A ti, meu Salvador!\n        Graças, graças, mil graças\n        Por teu precioso amor!\n\nEu te agradeço a bênção do trabalho\nE do meu lar, que alegra o meu viver;\nA correção paterna, quando falho,\nProvando teu amor pelo meu ser.\n\nEu te agradeço o pão de cada dia,\nA água que alivia a sede dura\nE o sol que aquece a pobre gente fria:\nSão bênçãos que enchem a terra de fartura.\n\nEu te agradeço, ó Pai, os meus amigos,\nE os inimigos também te agradeço.\nSou grato por vitórias em perigos\nE outras bênçãos que eu não mereço. Amém."
+        },
+        {
+            "titulo":"As muitas bênçãos",
+            "numero":"063",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Se da vida as vagas procelosas são,\nSe, com desalento, julgas tudo vão,\nConta as muitas bênçãos, dize-as de uma vez,\nE verás, surpreso, quanto Deus já fez.\n\n        Conta as bênçãos, dize-as quantas são,\n        Recebidas da divina mão!\n        Vem dizê-las, todas de uma vez,\n        E verás, surpreso, quanto Deus já fez!\n\nTens acaso mágoas, triste é teu lidar?\nÉ a cruz pesada que tens de levar?\nConta as muitas bênçãos! Logo exultarás,\nE, fortalecido, tudo vencerás!\n\nQuando vires outros com seu ouro e bens,\nLembra que tesouros prometidos tens.\nNunca os bens da terra poderão comprar\nA mansão celeste que vais habitar.\n\nSeja o teu combate longo ou breve aqui,\nNão te desanimes Deus será por ti!\nSeu divino auxílio minorando o mal,\nTe dará consolo e galardão final."
+        },
+        {
+            "titulo":"Grata memória",
+            "numero":"064",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Nunca meus lábios cessarão, ó Cristo,\nDe bendizer-te, de cantar-te glória;\nPois guardo na alma teu amor imenso:\nGrata memória!\n\nQuando perdido vagueava aflito\nE em densas trevas meu andar seguia,\nTu me buscastes, lá dos céus mandando\nLuz que me guia!\n\nQuando oprimido por mundano jugo,\nEm maus caminhos eu me angustiava,\nDeu-me descanso tua voz tão terna\nQue me chamava!\n\nAos fortes braços eu corri confiante,\nMeigo e bondoso, não me recusaste\nE, em teu imenso, suave amor, tão puro,\nMe agasalhaste!\n\nOh! Nunca, nunca cessarão meus lábios\nDe bendizer-te, de cantar-te glória;\nPois em minha alma tu és sempre, ó Cristo,\nGrata memória!"
+        },
+        {
+            "titulo":"Louvor",
+            "numero":"065",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Dai graças, todos vós, a Deus humildemente;\nMilagres fez por nós neste universo ingente.\nPois vós deveis saber que muitos bens nos deu,\nQue pelo seu poder nos vem a luz do céu.\n\nO Deus da Redenção nos queira dar a vida\nAlegre coração e auxílio em toda lida.\nMantenha-nos de pé, por seu imenso amor,\nE nos conserve a fé em Cristo, o Salvador.\n\nExaltação, louvor ao Pai, ao Filho amado\nE ao bom Consolador, que foi dos céus mandado!\nAo grande e trino Deus, em canto triunfal,\nTribute os hinos seus a Igreja Universal."
+        },
+        {
+            "titulo":"Contrição",
+            "numero":"066",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Sonda-me, ó Deus, o coração;\nSonda-me, ó Deus, o coração;\nProva e conhece os meus pensamentos;\nProva e conhece os meus pensamentos;\nVê se em mim há algum mau caminho.\nSonda-me, conhece-me\nE prova-me, ó Deus!\nConhece-me o coração,\nConhece-me o coração;\nGuia-me, Senhor,\nGuia-me, Senhor,\nE mostra o caminho,\nE guia meus passos,\nGuia meus passos,\nÓ meu Salvador. Amém. Amém."
+        },
+        {
+            "titulo":"Coração quebrantado",
+            "numero":"067",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Sonda-me, ó Deus, pois vês meu coração;\nProva-me, ó Pai, te peço em oração.\nDe todo o mal liberta-me, Senhor,\nAté da transgressão que oculta for.\n\nVem me lavar dos vis pecados meus,\nConforme prometeste, meu bom Deus.\nFaze-me arder e consumir de amor,\nPois quero te magnificar, Senhor.\n\nTodo o meu ser não considero meu;\nQuero gastá-lo no serviço teu.\nMinhas paixões tu podes dominar,\nPois tu, Senhor, vieste em mim morar.\n\nLá do alto céu o avivamento vem,\nE que comece em mim, seguindo além.\nO teu poder, as bênçãos, teu favor\nConcede aos que são teus, ó Pai de amor. Amém."
+        },
+        {
+            "titulo":"Necessidade",
+            "numero":"068",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Eu creio, Senhor, na divina promessa,\nVitórias já tive nas lutas aqui.\nContudo, é mui certo que a gente tropeça;\nPor isso, Senhor, eu preciso de ti.\n\nA luz que me guia no escuro caminho\nFulgura de cima, do Sol criador;\nContudo, não posso segui-la sozinho;\nPor isso eu preciso de ti, meu Senhor.\n\nBem sei que nas preces eu posso buscar-te,\nJamais dessa bênção na vida eu descri;\nContudo, é possível que eu dela me afaste;\nPor isso, Senhor, eu preciso de ti.\n\nEsforços da terra, precário destino,\nEmpenho dos homens, riqueza, o que for,\nNão valem a bênção do reino divino;\nPor isso eu preciso de ti, meu Senhor. Amém."
+        },
+        {
+            "titulo":"Súplica",
+            "numero":"069",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Salvador, Jesus bendito\nDe minha alma a Redenção\nTua graça me convida\nA buscar-te em confissão.\n\nPor amor de mim morreste\nSobre a ensangüentada cruz!\nTu sofreste a minha pena,\nOh! Meu Salvador Jesus!\n\nA minha alma purifica\nEm teu sangue remidor;\nFaze que, leal e humilde,\nEu te sirva, meu Senhor.\n\nTua ovelha, nos teus braços,\nBem segura guardarás,\nVem livrar-me dos pecados\nE guardar-me em tua paz!"
+        },
+        {
+            "titulo":"Descanso em Jesus",
+            "numero":"070",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Todo meu tão vil pecado\nLanço, ó Cristo, sobre ti,\nPois, Cordeiro imaculado,\nTu me dás perdão aqui.\n\nMinha mancha tão impura\nTu bem podes retirar;\nE deixar em ti segura\nA minha alma descansar.\n\nPobre sou, angustiado,\nMas revivo em tua cruz;\nE meu coração cansado\nPonho só em ti Jesus!\n\nMinhas mágoas carregaste\nNo madeiro em meu lugar;\nVida eterna me compraste,\nSalvação me vieste dar.\n\nE na glória eterna, ao lado\nDos fiéis em multidão,\nMeus louvores, Cristo amado,\nMais perfeito te serão. Amém."
+        },
+        {
+            "titulo":"Perdão",
+            "numero":"071",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Sim, sofrimento te causei, ó Deus!\nE ao meu exemplo o fraco tropeçou,\nE eu não andei nos bons caminhos teus.\nPerdão, Senhor!\n\nSim, vão e fútil foi o meu falar\nE amor a meu irmão não demonstrei;\nAo sofredor eu não quis ajudar.\nPerdão, Senhor!\n\nSim, negligente foi o meu viver,\nSem me dispor a pelejar por ti,\nE firme em teu trabalho eu não quis ser.\nPerdão, Senhor!\n\nEscuta, ó Deus, a minha oração\nE vem livrar-me do pecado vil.\nRenova este pobre coração!\nAmém, Senhor!"
+        },
+        {
+            "titulo":"Purificação",
+            "numero":"072",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A minha alma está manchada\nDe pecado e corrupção,\nPois em mim não há justiça,\nSantidade ou retidão.\n\nMinha origem reconheço:\nPecador, bem sei, nasci;\nDa maldade procedente,\nO seu fardo já senti.\n\nVem, Jesus, e santifica\nEste pobre pecador\nDá-me a graça de sentir-me\nAmparado em teu amor.\n\nO teu sangue precioso\nDerramado sobre a cruz,\nMe redime do pecado\nDe uma vez, ó meu Jesus.\n\nVem, Senhor, purificar-me,\nTeu perdão receberei.\nEu bem sei que para sempre\nAo teu lado reinarei. Amém."
+        },
+        {
+            "titulo":"Compaixão",
+            "numero":"073",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"A ti, Senhor, Atrevo-me a chegar;\nBem sei que sou indigno de favor.\nContrito venho para te implorar:\nTem compaixão de mim, sou pecador!\n\nSim, pecador, a suplicar perdão,\nEmbora não mereça o teu favor;\nMas dá-me, peço a purificação!\nTem compaixão de mim, sou pecador!\n\nFugindo eu quis, em vão, me libertar\nDo meu pecado vil e opressor!\nE agora, exausto, aqui eis-me a clamar:\nTem compaixão de mim, sou pecador!\n\nTão infinito, ó Deus, é teu poder!\nTão grande, ó Pai, o teu excelso amor!\nAos rogos meus não deixes de atender:\nTem compaixão de mim, sou pecador! Amém"
+        },
+        {
+            "titulo":"Sinceridade",
+            "numero":"074",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Jesus Senhor, me achego a ti,\nTua ira santa mereci;\nO teu favor estende aqui!\nAceita um pecador!\n\n        Eu venho como estou!\n        Sim, venho como estou!\n        Porque Jesus por mim morreu,\n        Eu venho como estou!\n\nAs minhas culpas grandes são,\nMas Tu, que não morreste em vão,\nMe podes conceder perdão!\nAceita um pecador!\n\nOh! Vem agora Salvador,\nLivrar-me por teu grande amor,\nPois Tu, Jesus, és meu Senhor,\nAceita um pecador. Amém."
+        },
+        {
+            "titulo":"Arrependimento e súplica",
+            "numero":"075",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Abatido em meu pecado,\nClamo a ti, ó bom Senhor!\nOlha o pranto, o desencanto,\nDeste pobre pecador.\nDeus clemente e paciente,\nOh, liberta-me do mal,\nPara amar-te e consagrar-te\nMinha vida até ao final.\n\nCada dia andaria\nLado a lado com Jesus,\nAdorando, exaltando\nAo excelso Deus de luz.\nMas ligado ao pecado,\nComo posso andar, Senhor?\nDos contritos os delitos,\nVem tirar, ó Redentor.\n\nDeus bondoso, caridoso,\nDa verdade eterno Autor,\nMeu pecado confessado,\nOh, perdoa por amor!\nDeus clemente, Pai do crente,\nEsperança e eterna luz,\nSê meu guia, noite e dia,\nPara a glória de Jesus. Amém"
+        },
+        {
+            "titulo":"Compaixão",
+            "numero":"76",
+            "autor_letra":"",
+            "autor_musica":"",
+            "assunto":"",
+            "letra":"Tem compaixão de mim Senhor!\nOh, mostra o teu excelso amor,\nE, na infinita multidão\n\nDe tuas graças dá perdão.\nTão pecador me descobri!\nPerdoa o mal que cometi.\nMinha alma venho aqui lavar;\nOh, não me deixes mais pecar.\n\nA mim Tu podes perdoar,\nDe toda mancha me lavar;\nVem dar-me um novo cora-ção,\n\nÓ Deus de amor e compaixão.\nPor geração, ó bom Senhor,\nNão sou senão um pecador.\nEm ti me posso levantar\nE, como a neve, puro estar.\n\nVem, pois, a mim então valer,\nA meus clamores atender,\nE o coração que triste está\nDe eterno gozo exultará. Amém."
         }
+    
+
     ]
 }

@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { FlatList, RectButton } from 'react-native-gesture-handler';
+
+
+
 
 import styles from './styles';
 
@@ -19,14 +21,11 @@ function Indice() {
 
    const hinos = hinario.hinos;
 
-   function handleNavigationToMusica(hino: any) {
-      console.log(hino);
-  }
+   
 
    return (
       <>
-         <PageHeader title="Novo Cantico" />
-         <IndiceMusica listaHinos={hinos}/>
+         <IndiceMusica listaHinos={hinos} title={hinario.nome} />
       </>
    );
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { View, Image, Text } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 import { Ionicons } from '@expo/vector-icons';
@@ -10,9 +10,10 @@ import { useNavigation } from '@react-navigation/native';
 
 interface PageHeaderProps {
     title: string;
+    headerRight?: ReactNode;
 }
 
-const PageHeader: React.FC<PageHeaderProps> = ({ title }) => {
+const PageHeader: React.FC<PageHeaderProps> = ({ title, children, headerRight }) => {
 
     const { navigate } = useNavigation()
 
@@ -24,12 +25,18 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title }) => {
         <View style={styles.container}>
             <View style={styles.topBar}>
                 <BorderlessButton onPress={handleGoBack}>
-                    <Ionicons name="ios-arrow-back" resizeMode="contain" size={24} color="white" />
+                    <Ionicons name="ios-arrow-back" resizeMode="contain" size={30} color="white" />
                 </BorderlessButton>
 
                 <Image source={logoImg} resizeMode='contain' />
             </View>
-            <Text style={styles.title}>{title}</Text>
+
+            <View style={styles.header}>
+                <Text style={styles.title}>{title}</Text>
+
+                {headerRight}
+            </View>
+            {children}
         </View>
     );
 }

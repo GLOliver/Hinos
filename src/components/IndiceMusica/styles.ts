@@ -14,9 +14,26 @@ const styles = StyleSheet.create({
         padding: 20,
         borderBottomWidth: 1,
         borderBottomColor: '#CCC'
-    }
+    },
 
+    searchForm: {
+        marginBottom: 8,
+    },
 
+    label: {
+        color: '#F8F7F2',
+        fontFamily: 'Poppins_400Regular'
+    },
+
+    input: {
+        height: 54,
+        backgroundColor: '#FFF',
+        borderRadius: 8,
+        justifyContent: 'center',
+        paddingHorizontal: 16,
+        marginTop: 4,
+        marginBottom: 16,
+    },
 });
 
 export default styles;

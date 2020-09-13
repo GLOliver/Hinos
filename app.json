@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#384B60"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -16,6 +16,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.augusto.hinos",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
     },

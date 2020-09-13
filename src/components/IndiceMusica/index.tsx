@@ -1,42 +1,118 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text } from 'react-native';
-import { useNavigation, BaseRouter } from '@react-navigation/native';
-import { FlatList, RectButton } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
+import { BorderlessButton, FlatList, RectButton, TextInput } from 'react-native-gesture-handler';
 
+import _ from "lodash";
+
+import AsyncStorage from '@react-native-community/async-storage';
+
+
+import { Feather } from '@expo/vector-icons';
 
 import styles from './styles';
+
+// Pages
+import PageHeader from '../../components/PageHeader';
 
 // Model
 import { HinoBean } from '../../models/hinoBean';
 
 interface IndiceMusicaProps {
-    listaHinos: HinoBean[];
+   listaHinos: HinoBean[];
+   title: string;
 }
 
-const IndiceMusica: React.FC<IndiceMusicaProps> = ({ listaHinos }) => {
-    const navigation = useNavigation();
+const IndiceMusica: React.FC<IndiceMusicaProps> = ({ listaHinos, title }) => {
+   const navigation = useNavigation();
 
-    const hinos = listaHinos;
+   const [query, setQuery] = useState('');
+   const [hinosFull, setFullHinos] = useState(listaHinos);
+   const [hinos, setHinos] = useState(listaHinos);
 
+   function handleSearch(text: string) {
+      const formatQuery = text.toLowerCase();
+      const data = _.filter(hinosFull, user => {
+         return contains(user, formatQuery);
+      })
+
+      setQuery(formatQuery);
+      setHinos(data);
+   }
+
+   function contains(hino: HinoBean, query: string) {
+      if (hino.numero.includes(query) || hino.titulo.toLowerCase().includes(query)) {
+         return true;
+      }
+      return false;
+   }
 
    function handleNavigationToMusica(hino: HinoBean) {
-      console.log(hino);
-      
-      navigation.navigate('Musica', { hino: hino });
-  }
+      setQuery('');
+      setHinos(hinosFull)
+      loadFavorites();
+      navigation.navigate('Musica', { hino: hino, favorited: favorites.includes(hino.numero)});
+   }
+
+   const [isFilterVisible, setIsFilterVisible] = useState(true);
+
+   function handleToggleFilterVisible() {
+      setIsFilterVisible(!isFilterVisible);
+   }
+
+   const [favorites, setFavorites] = useState<string[]>([]);
+
+   function loadFavorites() {
+      AsyncStorage.getItem('favorites').then(response => {
+         if (response) {
+            const favoritedHinos = JSON.parse(response);
+            const favoritedHinosNum = favoritedHinos.map( (hino: HinoBean) => {
+               return hino.numero
+            })
+             setFavorites(JSON.parse(response));
+         }
+     });
+   }
+
+    useEffect(() => {
+      loadFavorites();
+    }, []);
 
    return (
-      <View style={styles.container}>
-          <FlatList
+      <>
+         <PageHeader
+            title={title}
+            headerRight={(
+               <BorderlessButton onPress={handleToggleFilterVisible}>
+                  <Feather name="filter" size={20} color="#FFF" />
+               </BorderlessButton>
+            )}
+         >
+            {isFilterVisible && (
+               <View style={styles.searchForm}>
+                  <Text style={styles.label}>Pesquisar</Text>
+                  <TextInput
+                     style={styles.input}
+                     placeholder="Pesquise por titulo ou numero"
+                     placeholderTextColor="#c1bccc"
+                     onChangeText={handleSearch}
+                  />
+
+               </View>
+            )}
+         </PageHeader>
+         <View style={styles.container}>
+            <FlatList
                data={hinos}
-               renderItem={({ item }) => 
-                  <RectButton onPress={ () => handleNavigationToMusica(item) }>
+               renderItem={({ item }) =>
+                  <RectButton onPress={() => handleNavigationToMusica(item)}>
                      <Text style={styles.textItem}>{item.numero} - {item.titulo}</Text>
                   </RectButton>
                }
                keyExtractor={(item, index) => index.toString()}
             />
-      </View>
+         </View>
+      </>
    );
 }
 

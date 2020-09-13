@@ -2,7 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        padding: 40,
+        paddingHorizontal: 20,
+        paddingTop: 40,
         backgroundColor: '#5C93C4'
     },
 
@@ -18,7 +19,13 @@ const styles = StyleSheet.create({
         fontSize: 24,
         lineHeight: 32,
         maxHeight: 160,
-        marginVertical: 40,
+        marginVertical: 20,
+    },
+
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
     }
 
 });
