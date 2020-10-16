@@ -30,22 +30,38 @@ function Favoritos() {
     const hinos = hinario.hinos;
 
     useEffect(() => {
-        AsyncStorage.getItem('favorites').then(response => {
+        loadFavorites();
+
+        
+
+
+        console.log('favorites')
+        console.log(favorites)
+    }, []);
+
+    async function loadFavorites() {
+        await AsyncStorage.getItem('favoritesNCanticos').then(response => {
             if (response) {
-                setFavorites(JSON.parse(response));
+                console.log('response')
+                console.log(response)
+                Promise.resolve(JSON.parse(response)).then((res) => {
+                    console.log('response JSON')
+                    console.log(res)
+                    setFavorites(res);
+
+                    const hinosSelec = hinos.filter((hino: HinoBean) => {
+                        if (res.includes(hino.numero)) {
+                            return hino;
+                        }
+                    })
+                    if (hinosSelec.length !== 0) {
+                        setHinosFav(hinosSelec);
+                        setHasFavorites(true);
+                    }
+                });
             }
         });
-
-        const hinosSelec = hinos.filter((hino: HinoBean) => {
-            if (favorites.includes(hino.numero)) {
-                return hino;
-            }
-        })
-        if (hinosSelec.length !== 0) {
-            setHinosFav(hinosSelec);
-            setHasFavorites(true);
-        }
-    }, []);
+    }
 
     function handleNavigateBack() {
         goBack();
@@ -54,7 +70,7 @@ function Favoritos() {
     return (
         <>
             { hasFavorites
-                ? <IndiceMusica listaHinos={hinos} title="Favoritos" />
+                ? <IndiceMusica listaHinos={hivosFav} title="Favoritos" />
                 :
                 <View style={styles.container}>
                     <ImageBackground

@@ -37,15 +37,15 @@ function Landing() {
             </Text>
 
             <View style={styles.buttonsContainer}>
-                <RectButton onPress={handleNavigationToFavoritos} style={styles.button}>
-                    <Ionicons name="ios-heart" size={22} color="white" />
-                    <Text style={styles.buttonText}>Favoritos</Text>
-                </RectButton>
-            </View>
-            <View style={styles.buttonsContainer}>
                 <RectButton onPress={handleNavigationToIndices} style={styles.button}>
                     <Ionicons name="ios-book" size={24} color="white" />
                     <Text style={styles.buttonText}>Novo Cantico</Text>
+                </RectButton>
+            </View>
+            <View style={styles.buttonsContainer}>
+                <RectButton onPress={handleNavigationToFavoritos} style={styles.button}>
+                    <Ionicons name="ios-heart" size={22} color="white" />
+                    <Text style={styles.buttonText}>Favoritos</Text>
                 </RectButton>
             </View>
         </View>

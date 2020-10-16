@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import styles from './styles';
 
 import logoImg from '../../assets/images/Hinos_LogoIcon.png';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, } from '@react-navigation/native';
 
 interface PageHeaderProps {
     title: string;
@@ -15,17 +15,18 @@ interface PageHeaderProps {
 
 const PageHeader: React.FC<PageHeaderProps> = ({ title, children, headerRight }) => {
 
-    const { navigate } = useNavigation()
+    const { navigate, goBack } = useNavigation()
 
     function handleGoBack() {
-        navigate('Landing')
+        //navigate('Landing');
+        goBack();
     }
 
     return (
         <View style={styles.container}>
             <View style={styles.topBar}>
                 <BorderlessButton onPress={handleGoBack}>
-                    <Ionicons name="ios-arrow-back" resizeMode="contain" size={30} color="white" />
+                    <Ionicons name="ios-arrow-back" resizeMode="contain" size={35} color="white" />
                 </BorderlessButton>
 
                 <Image source={logoImg} resizeMode='contain' />

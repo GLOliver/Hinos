@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { Fragment } from 'react';
 import { AppLoading } from 'expo';
 
 import { Archivo_400Regular, Archivo_700Bold, useFonts } from '@expo-google-fonts/archivo';
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 
 import AppStack from './src/routes/AppStack';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
   } else {
     return (
       <>
-        <AppStack/>
+        <AppStack />
         <StatusBar style="light" />
       </>
     );

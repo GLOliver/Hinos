@@ -51,7 +51,9 @@ const IndiceMusica: React.FC<IndiceMusicaProps> = ({ listaHinos, title }) => {
       setQuery('');
       setHinos(hinosFull)
       loadFavorites();
-      navigation.navigate('Musica', { hino: hino, favorited: favorites.includes(hino.numero)});
+
+
+      navigation.navigate('Musica', { hino: hino, favorited: favorites.includes(hino.numero) });
    }
 
    const [isFilterVisible, setIsFilterVisible] = useState(true);
@@ -62,21 +64,22 @@ const IndiceMusica: React.FC<IndiceMusicaProps> = ({ listaHinos, title }) => {
 
    const [favorites, setFavorites] = useState<string[]>([]);
 
-   function loadFavorites() {
-      AsyncStorage.getItem('favorites').then(response => {
+   async function loadFavorites() {
+      await AsyncStorage.getItem('favoritesNCanticos').then(response => {
          if (response) {
             const favoritedHinos = JSON.parse(response);
-            const favoritedHinosNum = favoritedHinos.map( (hino: HinoBean) => {
-               return hino.numero
-            })
-             setFavorites(JSON.parse(response));
+            console.log(response)
+
+            setFavorites(JSON.parse(response));
          }
-     });
+      });
    }
 
-    useEffect(() => {
+   useEffect(() => {
       loadFavorites();
-    }, []);
+   }, []);
+
+   
 
    return (
       <>

@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
     footer: {
         backgroundColor: '#5C93C4',
         paddingHorizontal: 20,
-        paddingTop: 5,
-        paddingBottom: 10,
+        
+        
         borderRadius: 8,
     },
 
@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems: 'center',
         justifyContent: 'space-between',
+        paddingTop: 5,
     },  
 
     footerTitle: {
@@ -67,6 +68,7 @@ const styles = StyleSheet.create({
     
     footerContent: {
         marginTop: 5,
+        paddingBottom: 10,
     },
 
     footerContentText: {
@@ -78,6 +80,11 @@ const styles = StyleSheet.create({
     footerContentTextBold: {
         fontFamily: 'Archivo_700Bold',
         fontSize: 16,
+    },
+
+    footerButton:{
+        alignItems:'flex-end',
+        marginTop:  -45,
     },
 
 });

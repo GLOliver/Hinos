@@ -5,12 +5,13 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#384B60',
         justifyContent: 'center',
-        padding: 40,
+        paddingHorizontal: 40,
     },
 
     banner: {
         width: '100%',
         resizeMode: 'contain',
+        marginTop: -150,
     },
 
     title: {
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        height: 68,
+        height: 70,
         width: '100%',
         backgroundColor:'#5C93C4',
         borderRadius: 8,
@@ -55,6 +56,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         marginLeft: 20,
     },
+
 });
 
 export default styles;

@@ -5,12 +5,13 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#384B60',
         overflow: 'hidden',
-        padding: 24,
+        paddingHorizontal: 24,
     },
 
     textItem: {
         fontSize: 20,
         color: '#F8F7F2',
+        fontFamily: 'Poppins_400Regular',
         padding: 20,
         borderBottomWidth: 1,
         borderBottomColor: '#CCC'

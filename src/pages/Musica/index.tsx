@@ -38,6 +38,7 @@ interface State {
    fontSize: number;
    lineHeight: number;
    isFavorited: boolean;
+   footer: boolean;
 }
 
 class Musica extends Component<Props, State, NavigationParams>  {
@@ -56,12 +57,13 @@ class Musica extends Component<Props, State, NavigationParams>  {
          fontSize: 16,
          lineHeight: 27,
          isFavorited: this.props.route.params.favorited,
+         footer: false,
       };
 
       this.handleToggleFavorite = this.handleToggleFavorite.bind(this);
    }
 
-   async handleToggleFavorite(favorited:boolean) {
+   async handleToggleFavorite(favorited: boolean) {
 
       let favoritesArray = [];
       const favorites = await AsyncStorage.getItem('favorites');
@@ -71,11 +73,11 @@ class Musica extends Component<Props, State, NavigationParams>  {
       }
 
       if (favorited) {
-         const favoritedNum = favoritesArray.findIndex((hinoItem:HinoBean) =>{
+         const favoritedNum = favoritesArray.findIndex((hinoItem: HinoBean) => {
             return hinoItem.numero === this.props.route.params.hino.numero;
          });
 
-         favoritesArray.splice(favoritedNum,1)
+         favoritesArray.splice(favoritedNum, 1)
 
          this.setState({ isFavorited: false })
 
@@ -93,18 +95,42 @@ class Musica extends Component<Props, State, NavigationParams>  {
       const favorited = this.props.route.params.favorited;
 
 
-      console.log(hino)
-      console.log(favorited)
-
-
 
       return (
          <>
             <PageHeader title={hino.numero + ' - ' + hino.titulo} headerRight={(
-               <BorderlessButton >
+               <BorderlessButton onPress={
+                  async () => {
+
+                     let favoritesArray = [];
+                     const favorites = await AsyncStorage.getItem('favoritesNCanticos');
+ 
+                     if (favorites) {
+                        favoritesArray = JSON.parse(favorites);
+                     }
+
+                     if (this.state.isFavorited) {
+                        
+                        const favoritedNum = favoritesArray.findIndex( (numHino: string) => {
+                           return numHino === hino.numero;
+                        });
+
+                        favoritesArray.splice(favoritedNum, 1)
+                        console.log(favoritesArray)
+                        this.setState({ isFavorited: false })
+
+                     } else {
+                        favoritesArray.push(hino.numero);
+                        console.log(favoritesArray)
+                        this.setState({ isFavorited: true })
+                     }
+                     await AsyncStorage.setItem('favoritesNCanticos', JSON.stringify(favoritesArray));
+
+                  }
+               }>
                   { this.state.isFavorited
-                     ? <Ionicons name="md-heart-dislike" size={20} color="#FFF" />
-                     : <Ionicons name="md-heart" size={20} color="#FFF" />
+                     ? <Ionicons name="md-heart-dislike" size={30} color="#FFF" />
+                     : <Ionicons name="md-heart" size={30} color="#FFF" />
                   }
                </BorderlessButton>
             )}
@@ -119,55 +145,69 @@ class Musica extends Component<Props, State, NavigationParams>  {
                </ScrollView>
 
                <View style={styles.footer}>
-                  <View style={styles.footerHead}>
-                     <Text style={styles.footerTitle}>Informações</Text>
-
-                     <View style={styles.footerContainerButton}>
-                        <RectButton style={styles.fontButton} onPress={() => {
-                           if (this.state.fontSize < 28) {
-                              this.setState({ fontSize: this.state.fontSize + 4 })
-                              this.setState({ lineHeight: this.state.lineHeight + 10 })
-                           }
-                        }}
-                        >
-                           <MaterialCommunityIcons name="format-font-size-increase" size={30} color="white" />
-                        </RectButton>
-                        <RectButton style={styles.fontButton} onPress={() => {
-                           if (this.state.fontSize > 16) {
-                              this.setState({ fontSize: this.state.fontSize - 4 })
-                              this.setState({ lineHeight: this.state.lineHeight - 10 })
-                           }
-                        }}
-                        >
-                           <MaterialCommunityIcons name="format-font-size-decrease" size={30} color="white" />
-                        </RectButton>
-                     </View>
-
+                  <View style={styles.footerButton}>
+                     <RectButton style={styles.fontButton} onPress={() => {
+                        this.setState({ footer: !this.state.footer })
+                     }} >
+                        {this.state.footer
+                           ? <Ionicons name="ios-arrow-down" size={30} color="#FFF" />
+                           : <Ionicons name="ios-arrow-up" size={30} color="#FFF" />
+                        }
+                     </RectButton>
                   </View>
+                  {this.state.footer && (
+                     <>
+                        <View style={styles.footerHead}>
+                           <Text style={styles.footerTitle}>Informações</Text>
 
-                  <View style={styles.footerContent}>
-                     <Text style={styles.footerContentText}>
-                        Assunto: {'  '}
-                        <Text style={styles.footerContentTextBold}>
-                           {hino.assunto}
-                        </Text>
-                     </Text>
+                           <View style={styles.footerContainerButton}>
+                              <RectButton style={styles.fontButton} onPress={() => {
+                                 if (this.state.fontSize < 28) {
+                                    this.setState({ fontSize: this.state.fontSize + 4 })
+                                    this.setState({ lineHeight: this.state.lineHeight + 10 })
+                                 }
+                              }}
+                              >
+                                 <MaterialCommunityIcons name="format-font-size-increase" size={30} color="white" />
+                              </RectButton>
+                              <RectButton style={styles.fontButton} onPress={() => {
+                                 if (this.state.fontSize > 16) {
+                                    this.setState({ fontSize: this.state.fontSize - 4 })
+                                    this.setState({ lineHeight: this.state.lineHeight - 10 })
+                                 }
+                              }}
+                              >
+                                 <MaterialCommunityIcons name="format-font-size-decrease" size={30} color="white" />
+                              </RectButton>
+                           </View>
 
-                     <Text style={styles.footerContentText}>
-                        Letra: {'  '}
-                        <Text style={styles.footerContentTextBold}>
-                           {hino.autor_letra}
-                        </Text>
-                     </Text>
+                        </View>
 
-                     <Text style={styles.footerContentText}>
-                        Musica: {'  '}
-                        <Text style={styles.footerContentTextBold}>
-                           {hino.autor_musica}
-                        </Text>
-                     </Text>
+                        <View style={styles.footerContent}>
+                           <Text style={styles.footerContentText}>
+                              Assunto: {'  '}
+                              <Text style={styles.footerContentTextBold}>
+                                 {hino.assunto}
+                              </Text>
+                           </Text>
 
-                  </View>
+                           <Text style={styles.footerContentText}>
+                              Letra: {'  '}
+                              <Text style={styles.footerContentTextBold}>
+                                 {hino.autor_letra}
+                              </Text>
+                           </Text>
+
+                           <Text style={styles.footerContentText}>
+                              Musica: {'  '}
+                              <Text style={styles.footerContentTextBold}>
+                                 {hino.autor_musica}
+                              </Text>
+                           </Text>
+
+                        </View>
+                     </>
+                  )}
                </View>
             </View>
          </>
